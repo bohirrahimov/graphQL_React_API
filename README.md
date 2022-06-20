@@ -6,3 +6,4 @@ Queries are:
 
 Mutation:
 -getApi, creates new API key. It takes in 2 parameters: api_key and randomizer. api_key is needed to authorize the action and is required. Randomizer is an optional parameter that will be used to create a hash for an API key. Randomizer will then be mixed with timestamp and generate a sha1 hash that will be stored in the database. 
+There is one API key already created: "545022ca38adf1a623d921fd7ee888f19f792abd". It can be used to create new API keys and retrieve information form GitHub repository.
